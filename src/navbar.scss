@@ -1,0 +1,367 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.nav__link1:hover{
+  color: rgb(216,74,74,255);
+
+}
+
+.nav__link2:hover{
+  color: rgb(216,74,74,255);
+
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.iconobar{
+  position: absolute;
+  height: 3vw;
+  display: flex;
+  margin-left: -50vw;
+}
+
+.nav__menu {
+  position: absolute;
+  width: 33vw;
+  white-space: nowrap;
+  margin-left: 17%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 4em;
+  font-weight: bold;
+}
+.nav__toggler {
+  display: none;
+}
+.nav__toggler div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  transition: 0.3s ease-in;
+}
+
+.nav__linkHome{
+  color: rgb(216,74,74,255);
+}
+
+.letra_principales{
+  display: none;
+}
+
+.vegetarianos{
+  display: none;
+}
+
+.Principales{
+  display: none;
+}
+
+.Tortas{
+  display: none;
+}
+
+.letra_rapida{
+  display: none;
+}
+
+.rapida{
+  display: none;
+}
+
+.niños{
+  display: none;
+}
+
+.sopas{
+  display: none;
+}
+
+//-----------------------------------------------------------------
+
+@media screen and (max-width: 820px) {
+
+
+  .iconobar{
+    position: absolute;
+    margin-top: 4%;
+    width: 20vw;
+    height: 7vw;
+  }
+
+  .nav__toggler {
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 75%;
+    display: block;
+    cursor: pointer;
+  }
+  .nav__menu {
+    margin-left: -30%;
+    width: 110%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 70%;
+  }
+
+  .nav__link1{
+    position: absolute;
+    padding-left: 5%;
+    width: 14.3vw;
+    height: 10.5vw;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(237,243,251,255), rgb(253,254,255,255));
+    box-shadow:10px 12px 30px -10px rgba(0, 0, 0, 0.2);
+    font-size: 1.5vw;
+  }
+
+  .nav__link2{
+    position: absolute;
+    padding-left: 5%;
+    width: 14.3vw;
+    height: 10.5vw;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(237,243,251,255), rgb(253,254,255,255));
+    box-shadow:10px 12px 30px -10px rgba(0, 0, 0, 0.2);
+    font-size: 1.5vw;
+  }
+
+  .nav__linkHome{
+    display: none;
+  }
+
+  .letra_vegetarianos{
+    margin: auto;
+    margin-left: -40%;
+
+  }
+
+  .vegetarianos{
+    display: block;
+    margin-top: 15%
+  }
+
+  .letra_principales{
+    display: block;
+  }
+
+  .letra_Platos_principales{
+    display: none;
+  }
+
+  .letra_principales{
+    margin-top: 5%;
+    margin-left: -30%;
+
+  }
+
+  .Principales{
+    display: block;
+    margin-top: 24%;
+  }
+
+  .Tortas{
+    display: block;
+    margin-left: -4%;
+    margin-top: 26%;
+  }
+
+  .letras_tortas{
+    margin-top: 13%;
+    margin-left: -9%;
+  }
+
+  .letra_comida_rapida{
+   display: none; 
+  }
+
+  .letra_rapida{
+    display: block;
+    margin-top: 4%;
+    margin-left: -13%;
+  }
+
+  .rapida{
+    display: block;
+    margin-top: 30%;
+  }
+
+  .niños{
+    display: block;
+    margin-top: 25%;
+    margin-left: -9%;
+  }
+
+  .letra_niños{
+    margin-left: -33%;
+    margin-top: 8%;
+  }
+
+  .sopas{
+    display: block;
+    margin-top: 25%;
+  }
+
+  .letra_sopas{
+    margin-top: 4%;
+    margin-left: -8%;
+  }
+
+}
+
+
+//-----------------------------------------------------------------
+
+@media screen and (max-width: 390px) {
+
+
+  .iconobar{
+    position: absolute;
+    margin-top: 10%;
+    width: 32vw;
+    height: 12vw;
+  }
+
+  .nav__toggler {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 75%;
+    display: block;
+    cursor: pointer;
+  }
+  .nav__menu {
+    position: absolute;
+    width: 300px;
+    margin-top: 80%;
+    gap: 45em;
+    margin-left: 35%;
+  }
+
+  .nav__link1{
+    position: absolute;
+    padding-left: 5%;
+    width: 28.3vw;
+    height: 20.5vw;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(237,243,251,255), rgb(253,254,255,255));
+    box-shadow:10px 12px 30px -10px rgba(0, 0, 0, 0.2);
+    color: black;
+    font-size: 3vw;
+  }
+  .nav__link2{
+    position: absolute;
+    padding-left: 5%;
+    width: 28.3vw;
+    height: 20.5vw;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(237,243,251,255), rgb(253,254,255,255));
+    box-shadow:10px 12px 30px -10px rgba(0, 0, 0, 0.2);
+    color: black;
+    font-size: 3vw;
+    margin-top: 24vw;
+    margin-left: -95vw;
+  }
+
+  .nav__linkHome{
+    display: none;
+  }
+
+  .letra_vegetarianos{
+    margin: auto;
+    margin-left: 0%;
+
+  }
+
+  .vegetarianos{
+    display: block;
+    margin-top: 10%;
+    margin-left: 25%;
+  }
+
+  .letra_principales{
+    display: block;
+  }
+
+  .letra_Platos_principales{
+    display: none;
+  }
+
+  .letra_principales{
+    margin-top: 0%;
+    margin-left: 5%;
+
+  }
+
+  .Principales{
+    display: block;
+    margin-top: 20%;
+    margin-left: 24%;
+  }
+
+  .Tortas{
+    display: block;
+    margin-left: 24%;
+    margin-top: 26%;
+  }
+
+  .letras_tortas{
+    margin-top: 2%;
+    margin-left: 20%;
+  }
+
+  .letra_comida_rapida{
+   display: none; 
+  }
+
+  .letra_rapida{
+    display: block;
+    margin-top: 0%;
+    margin-left: 22%;
+  }
+
+  .rapida{
+    display: block;
+    margin-top: 20%;
+    margin-left: 30%;
+  }
+
+  .niños{
+    display: block;
+    margin-top: 15%;
+    margin-left: 22%;
+  }
+
+  .letra_niños{
+    margin-left: 3%;
+    margin-top: 4%;
+  }
+
+  .sopas{
+    display: block;
+    margin-top: 13%;
+    margin-left: 25%;
+  }
+
+  .letra_sopas{
+    margin-top: 2%;
+    margin-left: 20%;
+  }
+
+}
+
+

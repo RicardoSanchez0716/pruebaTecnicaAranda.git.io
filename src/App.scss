@@ -1,0 +1,1071 @@
+@font-face {
+  font-family: monster-clubhouse;
+  src: url(./assets/fonts/monster-clubhouse.ttf);
+}
+@font-face {
+font-family: Neometric;
+  src: url(./assets/fonts/Neometric.otf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body{
+  min-height: 70vh;
+}
+
+
+.contenedor{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+
+nav{
+    font-size: 0.7vw;
+    width: 67%;
+    height: 4vw;
+    font-family: Neometric;
+    display: flex;
+    align-items: center;
+    border: 10px;
+    background-color: white;
+  }
+}
+
+
+.imagenPrincipal{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+h2{
+  position: absolute;
+  margin-top: 7vw;
+  margin-left:20vw;
+  font-size: 3.5vw;
+  color: rgb(216,74,74,255);
+  font-family: monster-clubhouse;
+  font-weight: normal;
+}
+
+.TextoRecetas{
+
+    margin-top: -20%;
+    margin-left: 17%;
+    color: white;
+    font-size:4vw;
+    font-family: Neometric;
+    font-weight: bold;
+}
+
+.TextoParaTodos{
+  position: relative;
+    margin-top: -3%;
+    margin-left: 18%;
+    color: white;
+    font-size: 3.7vw;
+    font-family: monster-clubhouse;
+    font-weight: normal;
+}
+
+
+.contenedorRecetas{
+  margin-top: 15rem;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.contenedorFooter{
+  margin: 0 auto;
+  width: 100%;
+  min-height: 70vh;
+}
+
+
+
+//-----------Footer------------
+footer {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 16vw;
+  width: 67%;
+  height: 9vw;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(rgb(180,217,235,255), rgb(114,169,198,255));
+}
+
+h1{
+  white-space: nowrap;
+  font-size: 3vw;
+  margin-left: 14%;
+  color: rgb(66,89,102,255);
+  font-family: monster-clubhouse;
+  font-weight: normal;
+}
+
+.imagenFooter{
+  margin-left: 7vw;
+  width: 30vw;
+}
+
+//-----------contenedor recetas-----------
+.contenedorRecetas{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.contenedorReceta1{
+  margin: 0;
+  margin-left: 13vw;
+  position: relative;
+}
+
+//--------- Receta 1 Ojingeo---------
+.receta1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 14vw;
+  height: 13vw;
+  border-radius: 15px;
+  margin-top: 25%;
+  margin-left: 51.2%;
+  background-image: linear-gradient(rgb(237,243,251,255), rgb(253,254,255,255));
+  box-shadow:
+  10px 12px 30px -10px rgba(0, 0, 0, 0.2);
+}
+
+.ojingeo{
+  width: 10.1vw;
+  position: relative;
+  margin-top: -4vw;
+  margin-left: 1vw;
+}
+
+.ojingeoLetra{
+  font-size: 1.7vw;
+  color: rgb(216,74,74,255);
+  font-family: Neometric;
+  font-weight: bold;
+}
+
+.muchim{
+  font-size: 1.6vw;
+  color: rgb(216,74,74,255);
+  font-family: monster-clubhouse;
+  font-weight: normal;
+}
+
+.starReceta1{
+  position: absolute;
+  margin-top: 18%;
+  margin-left: -37%;
+}
+
+.puntuacionReceta1{
+  position: absolute;
+  margin-left: 5px;
+  font-size: 25px;
+  font-family: Neometric;
+  font-weight: bold;
+}
+
+.favoriteReceta1{
+  margin-top: 260%;
+  margin-left: 490%;
+}
+
+.contenedorReceta1:hover .receta1{
+  opacity: 0%;
+}
+
+.contenedorReceta1:hover .infoReceta1 {
+  opacity: 100%;
+}
+
+//----------info receta 1------------
+
+.infoReceta1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 14.2vw;
+  height: 17vw;
+  border-radius: 15px;
+  margin-top: -13vw;
+  margin-left: 50%;
+  background-image: linear-gradient(rgb(237,243,251,255), rgb(253,254,255,255));
+  box-shadow:10px 12px 30px -10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  opacity: 0%;
+  transition: all 400ms;
+}
+
+.tituloInfo{
+  font-family: monster-clubhouse;
+  font-weight: normal;
+  color: rgb(216,74,74,255);
+  font-size: 1vw;
+}
+
+  .info{
+    font-family: Neometric;
+    font-weight: bold;
+  }
+
+
+
+//-----------Receta 2 Cola-----------
+.receta2{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 14vw;
+  height: 13vw;
+  border-radius: 15px;
+  margin-top: 25%;
+  margin-left: 60%;
+  background-image: linear-gradient(rgb(237,243,251,255), rgb(253,254,255,255));
+  box-shadow:
+  10px 12px 30px -10px rgba(0, 0, 0, 0.2);
+}
+
+.cola{
+  width: 10vw;
+  position: relative;
+  margin-top: -4vw;
+}
+
+.colaLetra{
+  font-size: 1.7vw;
+  color: rgb(216,74,74,255);
+  font-family: Neometric;
+  font-weight: bold;
+}
+
+.chicken{
+  font-size: 1.6vw;
+  color: rgb(216,74,74,255);
+  font-family: monster-clubhouse;
+  font-weight: normal;
+}
+
+.starReceta2{
+  position: absolute;
+  margin-top: 10.7%;
+  margin-left: -10%;
+}
+
+.puntuacionReceta2{
+  position: absolute;
+  margin-left: 5px;
+  font-size: 25px;
+  font-family: Neometric;
+  font-weight: bold;
+}
+
+.favoriteReceta2{
+  margin-top: 20%;
+  margin-left: 75%;
+}
+
+//-----------info receta 2-----------
+
+.infoReceta2{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 14.2vw;
+  height: 17vw;
+  margin-top: -13vw;
+  margin-left: 8.3%;
+  border-radius: 15px;
+  background-image: linear-gradient(rgb(237,243,251,255), rgb(253,254,255,255));
+  box-shadow:10px 12px 30px -10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  opacity: 0;
+  transition: all 400ms;
+}
+
+.tituloInfo{
+  font-family: monster-clubhouse;
+  font-weight: normal;
+  color: rgb(216,74,74,255);
+  font-size: 1vw;
+}
+
+  .info{
+    font-family: Neometric;
+    font-weight: bold;
+  }
+
+  .contenedorReceta2:hover .receta2{
+    opacity: 0%;
+  }
+  
+  .contenedorReceta2:hover .infoReceta2 {
+    opacity: 100%;
+  }
+  
+
+
+//-----------Receta 3 Roasted-----------
+.receta3{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 14vw;
+  height: 13vw;
+  border-radius: 15px;
+  margin-top: 25%;
+  margin-left: 70%;
+  background-image: linear-gradient(rgb(237,243,251,255), rgb(253,254,255,255));
+  box-shadow:
+  10px 12px 30px -10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.roasted{
+  width: 10.2vw;
+  position: relative;
+  margin-top: -4vw;
+}
+
+.roastedLetra{
+  font-size: 1.7vw;
+  color: rgb(216,74,74,255);
+  font-family: Neometric;
+  font-weight: bold;
+}
+
+.carrot{
+  font-size: 1.6vw;
+  color: rgb(216,74,74,255);
+  font-family: monster-clubhouse;
+  font-weight: normal;
+}
+
+.starReceta3{
+  position: absolute;
+  margin-top: 76%;
+  margin-left: -75%;
+}
+
+.puntuacionReceta3{
+  position: absolute;
+  margin-left: 5px;
+  font-size: 25px;
+  font-family: Neometric;
+  font-weight: bold;
+}
+
+.favoriteReceta3{
+  margin-top: 18%;
+  margin-left: 75%;
+}
+
+//----------info receta 3-------------
+
+.infoReceta3{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 14.2vw;
+  height: 17vw;
+  margin-top: -13vw;
+  margin-left: 9.7%;
+  border-radius: 15px;
+  background-image: linear-gradient(rgb(237,243,251,255), rgb(253,254,255,255));
+  box-shadow:10px 12px 30px -10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  opacity: 0%;
+  transition: all 400ms;
+}
+
+.tituloInfo{
+  font-family: monster-clubhouse;
+  font-weight: normal;
+  color: rgb(216,74,74,255);
+  font-size: 1vw;
+}
+
+  .info{
+    font-family: Neometric;
+    font-weight: bold;
+  }
+
+  .contenedorReceta3:hover .receta3{
+    opacity: 0%;
+  }
+  
+  .contenedorReceta3:hover .infoReceta3 {
+    opacity: 100%;
+  }
+  
+
+//-----------Receta 4 Sweet--------------
+.receta4{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 14vw;
+  height: 13vw;
+  border-radius: 15px;
+  margin-top: 25%;
+  margin-left: 80%;
+  background-image: linear-gradient(rgb(237,243,251,255), rgb(253,254,255,255));
+  box-shadow:
+  10px 12px 30px -10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  
+}
+
+.sweet{
+  width: 8.5vw;
+  position: relative;
+  margin-top: -3vw;
+}
+
+.sweetLetra{
+  margin-top: 5%;
+  font-size: 1.7vw;
+  color: rgb(216,74,74,255);
+  font-family: Neometric;
+  font-weight: bold;
+}
+
+.cherries{
+  font-size: 1.6vw;
+  color: rgb(216,74,74,255);
+  font-family: monster-clubhouse;
+  font-weight: normal;
+}
+
+.starReceta4{
+  position: absolute;
+  margin-top: 75%;
+  margin-left: -77%;
+}
+
+.puntuacionReceta4{
+  position: absolute;
+  margin-left: 5px;
+  font-size: 25px;
+  font-family: Neometric;
+  font-weight: bold;
+}
+
+.favoriteReceta4{
+  margin-top: 17%;
+  margin-left: 75%;
+}
+
+//----------info receta 4-----------
+
+.infoReceta4{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 14.2vw;
+  height: 17vw;
+  margin-top: -13vw;
+  margin-left: 11.2%;
+  border-radius: 15px;
+  background-image: linear-gradient(rgb(237,243,251,255), rgb(253,254,255,255));
+  box-shadow:10px 12px 30px -10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  opacity: 0%;
+  transition: all 400ms;
+}
+
+.tituloInfo{
+  font-family: monster-clubhouse;
+  font-weight: normal;
+  color: rgb(216,74,74,255);
+  font-size: 1vw;
+}
+
+  .info{
+    font-family: Neometric;
+    font-weight: bold;
+  }
+
+  .contenedorReceta4:hover .receta4{
+    opacity: 0%;
+  }
+  
+  .contenedorReceta4:hover .infoReceta4 {
+    opacity: 100%;
+  }
+
+
+
+//------------------------------------------------------------------
+
+  @media screen and (max-width: 820px){
+
+    .contenedorRecetas{
+      height: 480px;
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 25%;
+      overflow-y:hidden;
+
+    }
+
+    .contenedorRecetas::-webkit-scrollbar{
+      display: none;
+    }
+
+    .imagenPrincipal{
+      margin-top: 4%;
+    }
+
+    .TextoRecetas{
+      font-size: 9vw;
+      margin-top: -24%;
+    }
+
+    .TextoParaTodos{
+      position: absolute;
+      font-size: 9vw;
+      margin-top: -5%;
+    }
+
+    h2{
+      font-size: 8vw;
+      margin-top: 22%;
+      margin-left: 8%;
+    }
+
+    .receta1{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 39vw;
+      height: 37vw;
+      border-radius: 15px;
+      margin-top: 30%;
+      margin-left: -30%;
+      background-image: linear-gradient(rgb(237,243,251,255), rgb(253,254,255,255));
+      box-shadow:
+      10px 12px 30px -10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .ojingeo{
+      width: 26vw;
+      position: relative;
+      margin-top: -10vw;
+      margin-left: 1vw;
+    }
+    
+    .ojingeoLetra{
+      font-size: 4.7vw;
+      color: rgb(216,74,74,255);
+      font-family: Neometric;
+      font-weight: bold;
+    }
+    
+    .muchim{
+      font-size: 4.6vw;
+      color: rgb(216,74,74,255);
+      font-family: monster-clubhouse;
+      font-weight: normal;
+    }
+    
+    .starReceta1{
+      position: absolute;
+      margin-top: 20%;
+      margin-left: -37%;
+    }
+    
+    .puntuacionReceta1{
+      position: absolute;
+      margin-left: 5px;
+      font-size: 25px;
+      font-family: Neometric;
+      font-weight: bold;
+    }
+    
+    .favoriteReceta1{
+      margin-top: 340%;
+      margin-left: 490%;
+    }
+
+    .receta2{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 39vw;
+      height: 37vw;
+      border-radius: 15px;
+      margin-top: 30%;
+      margin-left: -20%;
+      background-image: linear-gradient(rgb(237,243,251,255), rgb(253,254,255,255));
+      box-shadow:
+      10px 12px 30px -10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .cola{
+      width: 26vw;
+      position: relative;
+      margin-top: -10vw;
+    }
+    
+    .colaLetra{
+      font-size: 4.7vw;
+      color: rgb(216,74,74,255);
+      font-family: Neometric;
+      font-weight: bold;
+    }
+    
+    .chicken{
+      font-size: 4.6vw;
+      color: rgb(216,74,74,255);
+      font-family: monster-clubhouse;
+      font-weight: normal;
+    }
+    
+    .starReceta2{
+      position: absolute;
+      margin-top: 30%;
+      margin-left: -30%;
+    }
+    
+    .puntuacionReceta2{
+      position: absolute;
+      margin-left: 5px;
+      font-size: 25px;
+      font-family: Neometric;
+      font-weight: bold;
+    }
+    
+    .favoriteReceta2{
+      margin-top: 22%;
+      margin-left: 75%;
+    }
+
+    .receta3{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 39vw;
+      height: 37vw;
+      border-radius: 15px;
+      margin-top: 30%;
+      margin-left: -10%;
+      background-image: linear-gradient(rgb(237,243,251,255), rgb(253,254,255,255));
+      box-shadow:
+      10px 12px 30px -10px rgba(0, 0, 0, 0.2);
+      position: relative;
+    }
+    
+    .roasted{
+      width: 26.2vw;
+      position: relative;
+      margin-top: -10vw;
+    }
+    
+    .roastedLetra{
+      font-size: 4.7vw;
+      color: rgb(216,74,74,255);
+      font-family: Neometric;
+      font-weight: bold;
+    }
+    
+    .carrot{
+      font-size: 4.6vw;
+      color: rgb(216,74,74,255);
+      font-family: monster-clubhouse;
+      font-weight: normal;
+    }
+    
+    .starReceta3{
+      position: absolute;
+      margin-top: 77%;
+      margin-left: -75%;
+    }
+    
+    .puntuacionReceta3{
+      position: absolute;
+      margin-left: 5px;
+      font-size: 25px;
+      font-family: Neometric;
+      font-weight: bold;
+    }
+    
+    .favoriteReceta3{
+      margin-top: 21.3%;
+      margin-left: 75%;
+    }
+
+    .receta4{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 39vw;
+      height: 37vw;
+      border-radius: 15px;
+      margin-top: 30%;
+      margin-left: 0%;
+      background-image: linear-gradient(rgb(237,243,251,255), rgb(253,254,255,255));
+      box-shadow:
+      10px 12px 30px -10px rgba(0, 0, 0, 0.2);
+      position: relative;
+      
+    }
+    
+    .sweet{
+      width: 22vw;
+      position: relative;
+      margin-top: -7.5vw;
+    }
+    
+    .sweetLetra{
+      margin-top: 5%;
+      font-size: 4.7vw;
+      color: rgb(216,74,74,255);
+      font-family: Neometric;
+      font-weight: bold;
+    }
+    
+    .cherries{
+      font-size: 4.6vw;
+      color: rgb(216,74,74,255);
+      font-family: monster-clubhouse;
+      font-weight: normal;
+    }
+    
+    .starReceta4{
+      position: absolute;
+      margin-top: 76%;
+      margin-left: -77%;
+    }
+    
+    .puntuacionReceta4{
+      position: absolute;
+      margin-left: 5px;
+      font-size: 25px;
+      font-family: Neometric;
+      font-weight: bold;
+    }
+    
+    .favoriteReceta4{
+      margin-top: 20%;
+      margin-left: 75%;
+    }
+
+
+    footer{
+    position: relative;
+    margin-top: 15%;
+    margin-left: 0vw;
+    width: 100%;
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgb(180,217,235,255), rgb(114,169,198,255));
+    }
+
+    h1{
+      font-size: 5.5vw;
+      margin-left: 10%;
+    }
+
+    .imagenFooter{
+      margin-left: 3vw;
+      width: 45vw;
+    }
+
+  }
+
+  //------------------------------------------
+
+  @media screen and (max-width: 390px){
+
+    .contenedorRecetas{
+      height: 400px;
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 60%;
+      overflow-y:hidden;
+
+    }
+
+    .contenedorRecetas::-webkit-scrollbar{
+      display: none;
+    }
+
+    .imagenPrincipal{
+      margin-top: 10%;
+    }
+
+    .TextoRecetas{
+      font-size: 9vw;
+      margin-top: -24%;
+    }
+
+    .TextoParaTodos{
+      position: absolute;
+      font-size: 9vw;
+      margin-top: -5%;
+    }
+
+    h2{
+      font-size: 11vw;
+      margin-top: 57%;
+      margin-left: 8%;
+    }
+
+    .receta1{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 59vw;
+      height: 57vw;
+      border-radius: 15px;
+      margin-top: 30%;
+      margin-left: -20%;
+      background-image: linear-gradient(rgb(237,243,251,255), rgb(253,254,255,255));
+      box-shadow:
+      10px 12px 30px -10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .ojingeo{
+      width: 46vw;
+      position: relative;
+      margin-top: -20vw;
+    }
+    
+    .ojingeoLetra{
+      font-size: 6.7vw;
+      color: rgb(216,74,74,255);
+      font-family: Neometric;
+      font-weight: bold;
+    }
+    
+    .muchim{
+      font-size: 6.6vw;
+      color: rgb(216,74,74,255);
+      font-family: monster-clubhouse;
+      font-weight: normal;
+    }
+    
+    .starReceta1{
+      position: absolute;
+      margin-top: 20%;
+      margin-left: -37%;
+    }
+    
+    .puntuacionReceta1{
+      position: absolute;
+      margin-left: 5px;
+      font-size: 25px;
+      font-family: Neometric;
+      font-weight: bold;
+    }
+    
+    .favoriteReceta1{
+      margin-top: 260%;
+      margin-left: 420%;
+    }
+
+    .receta2{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 59vw;
+      height: 57vw;
+      border-radius: 15px;
+      margin-top: 30%;
+      margin-left: -10%;
+      background-image: linear-gradient(rgb(237,243,251,255), rgb(253,254,255,255));
+      box-shadow:
+      10px 12px 30px -10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .cola{
+      width: 46vw;
+      position: relative;
+      margin-top: -20vw;
+    }
+    
+    .colaLetra{
+      font-size: 6.7vw;
+      color: rgb(216,74,74,255);
+      font-family: Neometric;
+      font-weight: bold;
+    }
+    
+    .chicken{
+      font-size: 6.6vw;
+      color: rgb(216,74,74,255);
+      font-family: monster-clubhouse;
+      font-weight: normal;
+    }
+    
+    .starReceta2{
+      position: absolute;
+      margin-top: 51%;
+      margin-left: -50%;
+    }
+    
+    .puntuacionReceta2{
+      position: absolute;
+      margin-left: 5px;
+      font-size: 25px;
+      font-family: Neometric;
+      font-weight: bold;
+    }
+    
+    .favoriteReceta2{
+      margin-top: 22%;
+      margin-left: 75%;
+    }
+
+    .receta3{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 59vw;
+      height: 57vw;
+      border-radius: 15px;
+      margin-top: 30%;
+      margin-left: 0%;
+      background-image: linear-gradient(rgb(237,243,251,255), rgb(253,254,255,255));
+      box-shadow:
+      10px 12px 30px -10px rgba(0, 0, 0, 0.2);
+      position: relative;
+    }
+    
+    .roasted{
+      width: 46.2vw;
+      position: relative;
+      margin-top: -20vw;
+    }
+    
+    .roastedLetra{
+      font-size: 6.7vw;
+      color: rgb(216,74,74,255);
+      font-family: Neometric;
+      font-weight: bold;
+    }
+    
+    .carrot{
+      font-size: 6.6vw;
+      color: rgb(216,74,74,255);
+      font-family: monster-clubhouse;
+      font-weight: normal;
+    }
+    
+    .starReceta3{
+      position: absolute;
+      margin-top: 77%;
+      margin-left: -75%;
+    }
+    
+    .puntuacionReceta3{
+      position: absolute;
+      margin-left: 5px;
+      font-size: 25px;
+      font-family: Neometric;
+      font-weight: bold;
+    }
+    
+    .favoriteReceta3{
+      margin-top: 21.3%;
+      margin-left: 75%;
+    }
+
+    .receta4{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 59vw;
+      height: 57vw;
+      border-radius: 15px;
+      margin-top: 30%;
+      margin-left: 10%;
+      background-image: linear-gradient(rgb(237,243,251,255), rgb(253,254,255,255));
+      box-shadow:
+      10px 12px 30px -10px rgba(0, 0, 0, 0.2);
+      position: relative;
+      
+    }
+    
+    .sweet{
+      width: 40vw;
+      position: relative;
+      margin-top: -16.5vw;
+    }
+    
+    .sweetLetra{
+      margin-top: 5%;
+      font-size: 6.7vw;
+      color: rgb(216,74,74,255);
+      font-family: Neometric;
+      font-weight: bold;
+    }
+    
+    .cherries{
+      font-size: 6.6vw;
+      color: rgb(216,74,74,255);
+      font-family: monster-clubhouse;
+      font-weight: normal;
+    }
+    
+    .starReceta4{
+      position: absolute;
+      margin-top: 76%;
+      margin-left: -77%;
+    }
+    
+    .puntuacionReceta4{
+      position: absolute;
+      margin-left: 5px;
+      font-size: 25px;
+      font-family: Neometric;
+      font-weight: bold;
+    }
+    
+    .favoriteReceta4{
+      margin-top: 20%;
+      margin-left: 75%;
+    }
+
+
+    footer{
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0vw;
+    width: 100%;
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgb(180,217,235,255), rgb(114,169,198,255));
+    }
+
+    h1{
+      font-size: 5.5vw;
+      margin-left: 5%;
+    }
+
+    .imagenFooter{
+      margin-left: 3vw;
+      width: 53vw;
+    }
+
+  }
